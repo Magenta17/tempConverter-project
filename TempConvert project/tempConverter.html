@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="png" href="assets/rounded_edition_icon.png">
+    <link rel="stylesheet" href="tempConverter.css">
+    <title>Temp Converter</title>
+</head>
+<body>
+    <form>
+        <h1>Temp Converter</h1>
+        <h3>please enter ur temp :</h3>
+        <input type="text" id="number">
+        <div class="radiobox-body">
+            <div class="DFTC">
+                <input type="radio" id="FTC" name="radio">
+                <label for="FTC" id="label"></label>
+                <label for="FTC" id="label2" class="lables">Fahrenheit to Celsius</label>
+        </div>
+        
+            <div class="DCTF">
+                <input type="radio" id="CTF" name="radio">
+                <label for="CTF" id="label1"></label>
+                <label for="CTF" id="label2" class="lables">Celsius to Fahrenheit</label>
+            </div>
+        </div>
+        <button type="button" class="btn" onclick="convert()">Convert</button>
+        <br>
+        <p id="result"></p>
+    </form>
+
+
+    <script src="tempConverter.js"></script>
+</body>
+</html>
